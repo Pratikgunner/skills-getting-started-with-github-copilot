@@ -142,3 +142,38 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+  border: 1px dashed #90caf9;
+}
+
+.participants-section strong {
+  color: #1976d2;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1.05em;
+}
+
+.participants-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+  font-size: 0.98em;
+  padding-left: 0.5em;
+  color: #3949ab;
+  /* Fun emoji already included in JS */
+}
+
+.no-participants {
+  color: #757575;
+  font-style: italic;
+  margin: 0;
+}
